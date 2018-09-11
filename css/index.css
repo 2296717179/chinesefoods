@@ -1,0 +1,89 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+/*首页主体样式开始*/
+
+/*“热门推荐”样式开始*/
+	/*“热门推荐”顶部样式开始*/
+	div.wrap>.container>.product{width:1200px;margin:0 auto;padding-top:60px;text-align:center;overflow:hidden}
+	div.wrap>.container>.product>.proTop{width:400px;margin:20px auto;}
+	div.wrap>.container>.product>.proTop>.lg>img{width:71px;height:75px;}
+	div.wrap>.container>.product>.proTop>.mid{position:relative;}
+	div.wrap>.container>.product>.proTop>.mid>span{font:bold 26px 华文行楷;color:rgb(116, 114, 114);position:absolute;left:150px;top:3px;}
+	div.wrap>.container>.product>.proTop>.mid>img{width:235px;height:53px;}
+	div.wrap>.container>.product>.proTop>.tex{height:31px;line-height:31px}
+	div.wrap>.container>.product>.proTop>.tex>p{font-size:20px;font-weight:bold;color:rgb(116, 114, 114);}
+	/*“热门推荐”顶部样式结束*/
+
+	/*“热门推荐”底部样式开始*/
+	div.wrap>.container>.product>.proBot{height:540px;margin-left:25px;}
+	div.wrap>.container>.product>.proBot>.recom{width:535px;height:231px;float:left;margin:20px;position:relative;}
+	div.wrap>.container>.product>.proBot>.recom>.bg{width:58px;position:absolute;top:84px;left:40px;}
+	div.wrap>.container>.product>.proBot>.recom>.bg>a>img{width:58px;}
+	div.wrap>.container>.product>.proBot>.recom>.bg>p{font-size:12px;width:17px;color:white;position:absolute;top:13px;left:20px;}
+	div.wrap>.container>.product>.proBot>.recom>.text{color:#5a5a5a;}
+	div.wrap>.container>.product>.proBot>.recom>.text>p{width:29px;position:absolute;top:85px;left:272px;font:bold 20px 微软雅黑;}
+	div.wrap>.container>.product>.proBot>.recom>.text>h2{width:17px;position:absolute;top:89px;left:216px;font-size :10px;}
+	div.wrap>.container>.product>.proBot>.recom>.text>h3{width:17px;position:absolute;top:88px;left:184px;font-size:10px;}
+	div.wrap>.container>.product>.proBot>.recom>.text>h4{width:17px;position:absolute;top:89px;left:151px;font-size:10px;}
+	div.wrap>.container>.product>.proBot>.recom>.text>h5{width:17px;position:absolute;top:99px;left:119px;font-size:10px;}
+	div.wrap>.container>.product>.proBot>.recom>.img{width:173px;height:172px;}
+	div.wrap>.container>.product>.proBot>.recom>.img>img{width:173px;position:absolute;border-radius:60%;}
+	div.wrap>.container>.product>.sub{width:1107px;height:0px;margin:0 auto;margin-top:-268px;border:1px dashed #eee;}
+	div.wrap>.container>.product>.subT{width:0px;height:500px;margin:0 auto;margin-top:-255px;border:1px dashed #eee;}
+
+	/*“热门推荐”底部样式结束*/
+/*“热门推荐”样式结束*/
+	
+/*公司介绍内容样式开始*/
+	div.wrap>.container>.introduce{width:100%;height:795px;text-align:center;margin-top: 48px;background:url(../img/lmmz.jpg);}
+	div.wrap>.container>.introduce>.intHeader>h2{width:300px;font:bolder 32px 微软雅黑;margin:0 auto;padding:48px;color:white;}
+	div.wrap>.container>.introduce>.intHeader>h3{font:bold 22px 微软雅黑;margin-bottom:42px;color:rgb(242, 213, 61)}
+	div.wrap>.container>.introduce>.intMain>p{font:15px  微软雅黑;color:rgb(102,102,102);line-height:260%;}
+	div.wrap>.container>.introduce>.intFooter{width:958px;height:242px;border:24px solid rgb(49,48,48);margin:38px auto;overflow:hidden;position:relative;}
+	div.wrap>.container>.introduce>.intFooter>ul{width:1840px;margin:28px 8px;position:absolute;top:0px;left:0px;}
+	div.wrap>.container>.introduce>.intFooter>ul>li{width:205px;height:180px;float:left;margin:5px;}
+	div.wrap>.container>.introduce>.intFooter>ul>li>img{width:205px;height:180px;}
+/*公司介绍内容样式结束*/
+	
+/*厨师团队介绍样式开始*/
+	div.wrap>.container>.kitchen{width:100%;height:800px;color:rgb(47,47,47);}
+	/*厨师团队介绍顶部样式开始*/
+	div.wrap>.container>.kitchen>.kitTop{padding-top:45px;text-align:center;}
+	div.wrap>.container>.kitchen>.kitTop>h3{font:bold 25px 微软雅黑;}
+	div.wrap>.container>.kitchen>.kitTop>h4{font:22px 微软雅黑;margin:15px 0px;}
+	div.wrap>.container>.kitchen>.kitTop>p{font:13px 微软雅黑;margin:25px 0px;}
+	/*厨师团队介绍顶部样式结束*/
+	
+	/*厨师团队介绍底部样式开始*/
+	div.wrap>.container>.kitchen>.kitBot{padding-top:110px;}
+	div.wrap>.container>.kitchen>.kitBot>ul{width:1083px;height:412px;margin:0 auto;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li{width:317px;height:368px;float:left;margin:22px;position:relative;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li>.bgImg>img{width:317px;height:368px;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li>.chef{width:188px;height:188px;border-radius:50%;border:1px solid #666;position:absolute;top:-91px;left:67px;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li>.chef>img{width:173px;height:173px;position:absolute;top:8px;left:9px;border-radius:50%;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li>.text{width:258px;height:154px;line-height:40px;font-size:13px;position:absolute;top:122px;left:25px;}
+	div.wrap>.container>.kitchen>.kitBot>ul>li>.check{width:120px;height:40px;font:14px 微软雅黑;background:red;border-radius:20px;line-height:40px;text-align:center;position:absolute;top:294px;left:98px;}
+	/*厨师团队介绍底部样式结束*/
+/*厨师团队介绍样式结束*/
+/*优势介绍样式开始*/
+	div.wrap>.container>.advantage{width:100%;height:806px;}
+	.active{background:url(../img/500597070_zij7.jpg);}
+	div.wrap>.container>.advantage>.advTop{color:white;text-align:center;padding-top:50px;position:relative;}
+	div.wrap>.container>.advantage>.advTop>h3{font:bold 25px 微软雅黑;}
+	div.wrap>.container>.advantage>.advTop>h4{font:22px 微软雅黑;margin:15px 0px;}
+	div.wrap>.container>.advantage>.advTop>p{font:13px 微软雅黑;margin:25px 0px;}
+	div.wrap>.container>.advantage>.advBot{width:100%;height:346px;position:relative;}
+	div.wrap>.container>.advantage>.advBot>.banImg{width:340px;height:340px;margin-left:450px;margin-top:100px;border-radius:50%;border:3px solid white;overflow:hidden;}
+	div.wrap>.container>.advantage>.advBot>.banImg>ul{width:1020px}
+	div.wrap>.container>.advantage>.advBot>.banImg>ul>li{width:340px;float:left;}
+	div.wrap>.container>.advantage>.advBot>.banImg>ul>li>img{width:340px;height:340px;}
+	div.wrap>.container>.advantage>.advBot>.banText{width:359px;float:left;margin:30px;}
+	div.wrap>.container>.advantage>.advBot>.banText>div.num>div{width:43px;height:43px;border-radius:50%;background:white;text-align:center;}
+	div.wrap>.container>.advantage>.advBot>.banText>div.num>div>p{font:30px 微软雅黑;color:rgb(217,14,14);}
+	div.wrap>.container>.advantage>.advBot>.banText>div.num>span{display:block;height:28px;font:bold 21px 微软雅黑;color:white;margin:-32px 0px 0px 89px;}
+	div.wrap>.container>.advantage>.advBot>.banText>div.img{width:359px;height:126px;}
+	div.wrap>.container>.advantage>.advBot>.banText>div.img>p{font:14px 微软雅黑;margin-top:-118px;margin-left:14px;width:263px;height:109px;line-height:260%;}
+	div.wrap>.container>.advantage>.advBot>.banText>div.img>span{display:block;font:14px 微软雅黑;margin-top:16px;line-height:260%;color:white;}
+/*优势介绍样式结束*/
+/*首页主体样式结束*/

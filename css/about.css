@@ -1,0 +1,79 @@
+/*关于我们页面主体部分样式开始*/
+/*1*/
+	div.wrap>.container>.us>.top{text-align:center}
+	div.wrap>.container>.us>.top>h2{font:bold 25px 微软雅黑;padding-top:60px;}
+	div.wrap>.container>.us>.top>h4{font:22px 微软雅黑;margin:15px 0px;}
+	div.wrap>.container>.us>.top>p{font:13px 微软雅黑;margin:25px 0px;color:#5a5a5a;}
+	div.wrap>.container>.us>.mid>div{position:relative;color:white;}
+	div.wrap>.container>.us>.mid>div>ul{width:1200px;height:417px;margin:54px auto;}
+	div.wrap>.container>.us>.mid>div>ul>li{float:left;margin:3px;overflow:hidden;}
+	div.wrap>.container>.us>.mid>div>ul>li>img{width:256px;height:414px;transition-duration:0.5s}
+	div.wrap>.container>.us>.mid>div>ul>li>img:hover{transform:scale(1.2)}
+	div.wrap>.container>.us>.mid>div>ul>li:first-child img{width:337px;height:414px;}
+	div.wrap>.container>.us>.mid>div>ul>li:nth-child(3)>img{display:block;width:327px;height:204px;}
+	div.wrap>.container>.us>.mid>div>ul>li:nth-child(3)>img:first-child{margin-bottom:6px}
+	div.wrap>.container>.us>.mid>div>div.gone{width:76px;height:279px;background:#89BA2A;position:absolute;top:66px;left:360px;}
+	div.wrap>.container>.us>.mid>div>div.gone>p{width:26px;font:18px 微软雅黑;margin:29px auto;}
+	div.wrap>.container>.us>.mid>div>div.gtwo{width:200px;height:200px;border-radius:50%;background:#89BA2A;position:absolute;top:106px;left:893px;}
+	div.wrap>.container>.us>.mid>div>div.gtwo>p{width:172px;height:72px;text-align:center;font:15px 微软雅黑;line-height:240%;margin:65px auto;}
+	div.wrap>.container>.us>.bot{width:1190px;margin:0 auto;font:15px 微软雅黑;line-height:220%;text-indent:2em;color:#5A5A5A;}
+	div.wrap>.container>.us>.bot>p{margin:10px 0px;}
+/*1*/
+
+/*2*/
+	div.wrap>.container>.contop{text-align:center;color:#5a5a5a;}
+	div.wrap>.container>.contop>.sup>ul{width:600px;height:73px;margin:0 auto;padding-top:50px;}
+	div.wrap>.container>.contop>.sup>ul>li{width:200px;height:73px;line-height:85px;text-align:center;float:left;}
+	div.wrap>.container>.contop>.sup>ul>li>b{font:bold 37px 微软雅黑;letter-spacing: 3px;}
+	div.wrap>.container>.contop>.sup>ul>li:first-child{margin-left:37px;}
+	div.wrap>.container>.contop>.sup>ul>li:nth-child(2){width:120px;}
+	div.wrap>.container>.contop>.sup>ul>li>div.img{position:relative;}
+	div.wrap>.container>.contop>.sup>ul>li>div.img>img{font:bold 37px 微软雅黑;}
+	div.wrap>.container>.contop>.sup>ul>li>div.img>span{font:bold 37px 微软雅黑;position:absolute;top:8px;left:17px;color:white;}
+	div.wrap>.container>.contop>.sup>ul>li>p{font:37px 宋体;margin-top:14px;}
+	div.wrap>.container>.contop>.center>p{font:19px 微软雅黑;padding-top:26px;}
+	div.wrap>.container>.contop>.sub>ul{width:1040px;height:324px;text-align:left;margin:0 auto;padding-top:57px;}
+	div.wrap>.container>.contop>.sub>ul>li{float:left;margin:10px;text-align:center;}
+	div.wrap>.container>.contop>.sub>ul>li>p{font:bolder 14px 微软雅黑;line-height:200%;color:rgb(114,112,112);}
+	div.wrap>.container>.contop>.sub>ul>li>p:first-of-type{padding-top:10px;}
+	div.wrap>.container>.contop>.sub>ul>li>h2{font:bolder 29px 微软雅黑;color:rgb(255, 152, 2);margin-top:-191px;}
+	div.wrap>.container>.contop>.sub>ul>li>h3{font:bolder 29px 微软雅黑;color:rgb(18, 208, 141);margin-top:-191px;}
+	div.wrap>.container>.contop>.sub>ul>li>h4{font:bolder 29px 微软雅黑;color:rgb(244, 40, 21);margin-top:-191px;}
+	div.wrap>.container>.contop>.sub>ul>li>h5{font:bolder 29px 微软雅黑;color:rgb(242,196,20);margin-top:-191px;}
+	div.wrap>.container>.contop>.bot{width:100%;height:30px;background:rgb(09,09,09);}
+/*2*/
+/*3*/
+	div.wrap>.container>.conmid{text-align:center;color:#5a5a5a;}
+	div.wrap>.container>.conmid>.sup>ul{width:600px;height:73px;margin:0 auto;padding-top:50px;}
+	div.wrap>.container>.conmid>.sup>ul>li{width:200px;height:73px;line-height:85px;text-align:center;float:left;}
+	div.wrap>.container>.conmid>.sup>ul>li>b{font:bold 37px 微软雅黑;letter-spacing: 3px;}
+	div.wrap>.container>.conmid>.sup>ul>li:first-child{margin-left:37px;}
+	div.wrap>.container>.conmid>.sup>ul>li:nth-child(2){width:120px;}
+	div.wrap>.container>.conmid>.sup>ul>li>div.img{position:relative;}
+	div.wrap>.container>.conmid>.sup>ul>li>div.img>img{font:bold 37px 微软雅黑;}
+	div.wrap>.container>.conmid>.sup>ul>li>div.img>span{font:bold 37px 微软雅黑;position:absolute;top:8px;left:17px;color:white;}
+	div.wrap>.container>.conmid>.sup>ul>li>p{font:37px 宋体;margin-top:14px;}
+	div.wrap>.container>.conmid>.center>p{font:19px 微软雅黑;padding-top:26px;}
+	div.wrap>.container>.conmid>.sub{width:100%;height:400px;background:pink;}
+	div.wrap>.container>.conmid>.sub>ul.one>li{float:left;font-size:12px;color:#5a5a5a;}
+	div.wrap>.container>.conmid>.sub>ul.one>li>i{display:block;width:50px;height:50px;border-radius:50%;background:#f6bd14;vertical-align:middle;display:table-cell;}
+/*3*/	
+/*4*/
+	div.wrap>.container>.conbot{text-align:center;color:#5a5a5a;}
+	div.wrap>.container>.conbot>.sup>ul{width:600px;height:73px;margin:0 auto;padding-top:50px;}
+	div.wrap>.container>.conbot>.sup>ul>li{width:200px;height:73px;line-height:85px;text-align:center;float:left;}
+	div.wrap>.container>.conbot>.sup>ul>li>b{font:bold 37px 微软雅黑;letter-spacing: 3px;}
+	div.wrap>.container>.conbot>.sup>ul>li:first-child{margin-left:37px;}
+	div.wrap>.container>.conbot>.sup>ul>li:nth-child(2){width:120px;}
+	div.wrap>.container>.conbot>.sup>ul>li>div.img{position:relative;}
+	div.wrap>.container>.conbot>.sup>ul>li>div.img>img{font:bold 37px 微软雅黑;}
+	div.wrap>.container>.conbot>.sup>ul>li>div.img>span{font:bold 37px 微软雅黑;position:absolute;top:8px;left:17px;color:white;}
+	div.wrap>.container>.conbot>.sup>ul>li>p{font:37px 宋体;margin-top:14px;}
+	div.wrap>.container>.conbot>.center>p{font:19px 微软雅黑;padding-top:26px;}
+	div.wrap>.container>.conbot>.sub>div{width:1153px;height:186px;overflow:hidden;margin:45px auto;position:relative;}
+	div.wrap>.container>.conbot>.sub>div>ul{width:3200px;height:186px;position:absolute;top:0px;left:0px;}
+	div.wrap>.container>.conbot>.sub>div>ul>li{float:left;margin:15px;text-align:center;}
+	div.wrap>.container>.conbot>.sub>div>ul>li>a{display:block;height:153px;}
+	div.wrap>.container>.conbot>.sub>div>ul>li>a>img{width:200px;height:153px;}
+/*4*/	
+/*关于我们页面主体部分样式结束*/

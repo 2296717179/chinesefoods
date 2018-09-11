@@ -1,0 +1,15 @@
+/*厨师团队主体部分样式*/
+div.wrap>.container>.top{text-align:center}
+div.wrap>.container>.top>h2{font:bold 25px 微软雅黑;padding-top:60px;}
+div.wrap>.container>.top>h4{font:22px 微软雅黑;margin:15px 0px;}
+div.wrap>.container>.top>p{font:13px 微软雅黑;margin:25px 0px;color:#5a5a5a;}
+div.wrap>.container>.bot>ul{width:1140px;height:820px;margin:0 auto;text-align:center;}
+div.wrap>.container>.bot>ul>li{width:340px;height:340px;float:left;margin:20px;}
+div.wrap>.container>.bot>ul>li>a>h3{color:#ff8140;font:bold 27px 微软雅黑;margin-top:10px;}
+div.wrap>.container>.bot>ul>li>a>p{color:#7e7e7e;font:bold 15px 微软雅黑;margin-top:10px;}
+div.wrap>.container>.bot>ul>li>a>img{width:340px;height:220px;}
+div.wrap>.container>div.sub>ul{width:69px;height:49px;margin:0 auto;margin-bottom:36px;}
+div.wrap>.container>div.sub>ul>li{width:15px;height:21px;line-height:21px;border:1px solid #FFE3C6;float:left;margin:3px;text-align:center;background:#FFBE94;}
+div.wrap>.container>div.sub>ul>li:hover{background:#FF9600}
+div.wrap>.container>div.sub>ul>li>span{color:#FF6500}
+div.wrap>.container>div.sub>ul>p{width:15px;height:21px;line-height:21px;border:1px solid #FFE3C6;float:left;margin:3px;text-align:center;background:#FFBE94;}
